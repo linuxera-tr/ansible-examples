@@ -5,7 +5,7 @@
   redhat_subscription:
     state: present
     activationkey: 5
-    org_id: 4
+    org_id: 4-linuxera
     
 - name: Install ntp
   yum: name=ntp state=present
