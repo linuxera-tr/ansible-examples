@@ -4,7 +4,7 @@
 - name: Register with activationkey 
   redhat_subscription:
     state: present
-    activationkey: 5
+    activationkey: 'RHEL7 OS'
     org_id: linuxera
     
 - name: Install ntp
