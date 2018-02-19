@@ -1,7 +1,7 @@
 [webservers]
-webserver.local
+webserver.linuxera.hq
 
 [dbservers]
-dbserver.local
+dbserver.linuxera.hq
 
 
