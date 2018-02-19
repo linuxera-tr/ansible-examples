@@ -1,6 +1,12 @@
 ---
 # This playbook contains common plays that will be run on all nodes.
 
+- name: Register with activationkey 
+  redhat_subscription:
+    state: present
+    activationkey: 5
+    org_id: 4
+    
 - name: Install ntp
   yum: name=ntp state=present
   tags: ntp
