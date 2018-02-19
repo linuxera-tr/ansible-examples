@@ -1,7 +1,7 @@
 [webservers]
-webserver.linuxera.hq
+webserver.linuxera.hq ansible_host: 192.168.20.201
 
 [dbservers]
-dbserver.linuxera.hq
+dbserver.linuxera.hq ansible_host: 192.168.20.202
 
 
